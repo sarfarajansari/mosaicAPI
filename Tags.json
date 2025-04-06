@@ -1,0 +1,357 @@
+{
+    "namespace": "ai-discovery",
+    "custom_tags": [
+      {
+        "category": "ToolType",
+        "description": "Categorizes AI tools by their functionality and application domains.",
+        "tags": [
+          {
+            "name": "Natural Language Processing (NLP)",
+            "description": "Tools and models focused on Natural Language Processing tasks."
+          },
+          {
+            "name": "Computer Vision",
+            "description": "AI models and frameworks for image processing, detection, and analysis."
+          },
+          {
+            "name": "Reinforcement Learning",
+            "description": "Agents and algorithms designed for decision-making and sequential tasks."
+          },
+          {
+            "name": "Generative AI",
+            "description": "Models that generate text, images, audio, or other content."
+          },
+          {
+            "name": "Speech Recognition",
+            "description": "Tools that convert spoken language into text."
+          },
+          {
+            "name": "Anomaly Detection",
+            "description": "Systems designed to identify unusual patterns that do not conform to expected behavior."
+          },
+          {
+            "name": "Recommendation Systems",
+            "description": "Algorithms that suggest relevant items to users based on preferences and behavior."
+          },
+          {
+            "name": "Time Series Analysis",
+            "description": "Tools for analyzing data points indexed in time order."
+          },
+          {
+            "name": "Robotics",
+            "description": "AI for controlling robots and automating tasks."
+          },
+          {
+            "name": "Predictive Analytics",
+            "description": "Using AI to forecast future outcomes based on historical data."
+          }
+        ]
+      },
+      {
+        "category": "SourcePlatform",
+        "description": "Identifies the original source of AI projects and resources.",
+        "tags": [
+          {
+            "name": "GitHub",
+            "description": "Open-source projects and repositories hosting AI code."
+          },
+          {
+            "name": "ArXiv",
+            "description": "Preprints and research papers on AI innovations."
+          },
+          {
+            "name": "Hugging Face",
+            "description": "Model hubs and datasets for cutting-edge AI research."
+          },
+          {
+            "name": "Papers with Code",
+            "description": "Platform linking research papers with their corresponding code implementations."
+          },
+          {
+            "name": "Kaggle",
+            "description": "Online community for data science and machine learning competitions and datasets."
+          },
+          {
+            "name": "BioRxiv",
+            "description": "Preprint server for biology, often containing AI applications in bioinformatics."
+          },
+          {
+            "name": "Google AI Blog",
+            "description": "Official blog with announcements and articles from Google's AI research."
+          },
+          {
+            "name": "OpenAI Blog",
+            "description": "Official blog for announcements and research updates from OpenAI."
+          }
+        ]
+      },
+      {
+        "category": "ContentType",
+        "description": "Specifies the type of AI content or resource being presented.",
+        "tags": [
+          {
+            "name": "Research Paper",
+            "description": "Academic publications and preprints on AI methodologies."
+          },
+          {
+            "name": "Code Release",
+            "description": "Released source code, libraries, and model checkpoints."
+          },
+          {
+            "name": "Tutorial",
+            "description": "Educational guides and walkthroughs for AI techniques."
+          },
+          {
+            "name": "Demo",
+            "description": "Interactive showcases and practical demonstrations of AI applications."
+          },
+          {
+            "name": "Benchmark",
+            "description": "Standardized tests and datasets for evaluating model performance."
+          },
+          {
+            "name": "Dataset",
+            "description": "Collections of data used for training and evaluating AI models."
+          },
+          {
+            "name": "Blog Post",
+            "description": "Informal articles and updates on AI topics."
+          },
+          {
+            "name": "Conference Talk",
+            "description": "Presentations given at AI conferences and workshops (videos, slides)."
+          },
+          {
+            "name": "Library/Framework",
+            "description": "Software libraries and frameworks for AI development."
+          }
+        ]
+      },
+      {
+        "category": "TechnicalLevel",
+        "description": "Indicates the complexity and depth of the AI resource.",
+        "tags": [
+          {
+            "name": "Beginner",
+            "description": "Content tailored for newcomers and those starting in AI."
+          },
+          {
+            "name": "Intermediate",
+            "description": "Resources with moderate technical details suited for experienced users."
+          },
+          {
+            "name": "Advanced",
+            "description": "Highly technical content intended for experts and specialists."
+          },
+          {
+            "name": "Non-Technical",
+            "description": "Content that explains AI concepts in layman's terms, suitable for a broad audience."
+          }
+        ]
+      },
+      {
+        "category": "ApplicationDomain",
+        "description": "Highlights the real-world application areas of AI tools and models.",
+        "tags": [
+          {
+            "name": "Healthcare",
+            "description": "AI applications focused on medical research, diagnostics, and patient care."
+          },
+          {
+            "name": "Finance",
+            "description": "Tools targeting financial analytics, risk management, and trading."
+          },
+          {
+            "name": "Autonomous Systems",
+            "description": "Models designed for self-driving cars, robotics, and automation."
+          },
+          {
+            "name": "Creative Arts",
+            "description": "Applications in art, music, design, and creative content generation."
+          },
+          {
+            "name": "Education",
+            "description": "AI tools for learning, academic research, and instructional design."
+          },
+          {
+            "name": "Retail",
+            "description": "AI solutions for inventory management, customer insights, and personalized shopping experiences."
+          },
+          {
+            "name": "Agriculture",
+            "description": "Technologies for crop monitoring, yield prediction, and automated farming practices."
+          },
+          {
+            "name": "Manufacturing",
+            "description": "AI for optimizing production, quality control, and predictive maintenance."
+          },
+          {
+            "name": "Cybersecurity",
+            "description": "AI tools for threat detection, vulnerability analysis, and security automation."
+          },
+          {
+            "name": "Climate Science",
+            "description": "AI applications for climate modeling, weather forecasting, and environmental monitoring."
+          }
+        ]
+      },
+      {
+        "category": "DigestType",
+        "description": "Differentiates between various styles of content delivery in digests.",
+        "tags": [
+          {
+            "name": "Technical Digest",
+            "description": "In-depth summaries with a focus on technical details and implementation."
+          },
+          {
+            "name": "Non-Technical Digest",
+            "description": "Simplified summaries intended for a broader, less specialized audience."
+          },
+          {
+            "name": "Daily Digest",
+            "description": "Daily summaries of the latest AI news and updates."
+          },
+          {
+            "name": "Weekly Digest",
+            "description": "Weekly roundups of the most important AI developments."
+          }
+        ]
+      },
+      {
+        "category": "ModelType",
+        "description": "Specifies the architecture or framework of AI models.",
+        "tags": [
+          {
+            "name": "Retrieval-Augmented Generation (RAG)",
+            "description": "Models that enhance generative capabilities by retrieving information from external data sources."
+          },
+          {
+            "name": "Transformer",
+            "description": "Models based on the transformer architecture, enabling parallel processing of sequential data."
+          },
+          {
+            "name": "Mixture of Experts (MoE)",
+            "description": "Models that utilize multiple expert networks to handle different aspects of tasks, improving efficiency and performance."
+          },
+          {
+            "name": "Convolutional Neural Network (CNN)",
+            "description": "A class of deep neural networks, commonly applied to analyzing visual imagery."
+          },
+          {
+            "name": "Recurrent Neural Network (RNN)",
+            "description": "Neural networks designed for processing sequential data by utilizing internal memory."
+          },
+          {
+            "name": "Diffusion Model",
+            "description": "Generative models that learn to produce data by reversing a diffusion process."
+          },
+          {
+            "name": "Variational Autoencoder (VAE)",
+            "description": "A type of autoencoder that learns probabilistic representations of input data for generation tasks."
+          },
+          {
+            "name": "Graph Neural Network (GNN)",
+            "description": "Neural networks designed to operate on graph-structured data."
+          }
+        ]
+      },
+      {
+        "category": "MajorModels",
+        "description": "Tags for prominent AI models in the industry.",
+        "tags": [
+          {
+            "name": "Llama",
+            "description": "A family of large language models developed by Meta AI, known for their open-source availability and versatility."
+          },
+          {
+            "name": "DeepSeek",
+            "description": "A series of AI models from DeepSeek AI, recognized for their efficiency and open-source contributions."
+          },
+          {
+            "name": "GPT",
+            "description": "Generative Pre-trained Transformer models developed by OpenAI, widely used for various natural language processing tasks."
+          },
+          {
+            "name": "BERT",
+            "description": "Bidirectional Encoder Representations from Transformers, a model by Google for understanding the context of words."
+          },
+          {
+            "name": "DALL-E",
+            "description": "OpenAI's model that generates images from textual descriptions."
+          },
+          {
+            "name": "Stable Diffusion",
+            "description": "A latent text-to-image diffusion model capable of generating photorealistic images."
+          },
+          {
+            "name": "Whisper",
+            "description": "A general-purpose speech recognition model by OpenAI."
+          }
+        ]
+      },
+      {
+        "category": "Task/Functionality",
+        "description": "Describes the specific task the AI model or tool performs.",
+        "tags": [
+          {
+            "name": "Text Summarization",
+            "description": "AI models that automatically generate concise summaries of longer texts."
+          },
+          {
+            "name": "Question Answering",
+            "description": "Models designed to answer questions posed in natural language."
+          },
+          {
+            "name": "Image Generation",
+            "description": "AI tools that create new images from text prompts or other inputs."
+          },
+          {
+            "name": "Object Detection",
+            "description": "Computer vision techniques that identify and locate objects within images or videos."
+          },
+          {
+            "name": "Sentiment Analysis",
+            "description": "AI models that determine the emotional tone or attitude expressed in text."
+          },
+          {
+            "name": "Machine Translation",
+            "description": "Tools that automatically translate text from one language to another."
+          },
+           {
+            "name": "Code Generation",
+            "description": "AI models that generate code based on natural language descriptions or specifications."
+          },
+          {
+            "name": "Data Augmentation",
+            "description": "Techniques to artificially increase the amount of training data by creating modified versions of existing data."
+          }
+        ]
+      },
+      {
+        "category": "License",
+        "description": "Describes the licensing under which the AI resource is provided.",
+        "tags": [
+          {
+            "name": "MIT License",
+            "description": "A permissive open-source license."
+          },
+          {
+            "name": "Apache 2.0",
+            "description": "A permissive open-source license from the Apache Foundation."
+          },
+          {
+            "name": "GPL",
+            "description": "A copyleft open-source license from the GNU project."
+          },
+          {
+            "name": "Proprietary",
+            "description": "Software or resources with restricted usage rights."
+          },
+          {
+            "name": "Creative Commons",
+            "description": "A set of licenses that allow creators to retain copyright while allowing others to copy, distribute, and make use of their work."
+          }
+        ]
+      }
+    ]
+  }
